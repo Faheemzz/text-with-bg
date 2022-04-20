@@ -4,10 +4,9 @@ section.text-with-background .container {
 }
 
 section.text-with-background video {
-    width: 98%;
     height: 100%;
     position: absolute;
-    
+
 }
 
 .text-box {
@@ -24,7 +23,14 @@ section.text-with-background video {
 }
 
 .text-box h1 {
-    font-size: 55px;
-    font-weight: 900;
-    color: #fff;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    margin: 10px 0;
+    font-size: 6.571429rem !important;
 }
